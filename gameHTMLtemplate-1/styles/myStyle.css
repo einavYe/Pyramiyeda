@@ -1,0 +1,220 @@
+﻿body {
+    /*background-color: #C1EDFF;*/
+    /*background-color: white;*/
+    background-color:#FFCC99;
+    font-family: 'Nehama';
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#gameArea {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    background-color: #792735;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: block;
+    direction: rtl;
+    z-index: 3;
+top: -10px
+}
+
+    /*כותרת משחק*/
+    header > a > p {
+        font-family: 'Nehama';
+        font-size: 21pt;
+        font-weight: 500;
+        position: relative;
+        top: -10px;
+        color: #FFCC99;
+        display: inline-block;
+        direction: rtl;
+    }
+
+
+#logo {
+    width: 70px;
+    height: 32px;
+    padding: 5px 15px;
+    direction: rtl;
+}
+
+nav {
+    margin-top: -80px;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+    nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: left;
+            direction: rtl;
+        }
+
+            nav ul li a {
+                display: block;
+                color: #FFCC99;
+                text-align: center;
+                padding: 3px 10px;
+                font-weight: 300;
+                font-size: 16pt;
+                font-family: 'Nehama';
+                direction: rtl;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 500;
+                    cursor: pointer;
+                    font-family: 'Nehama';
+                    direction: rtl;
+                    text-decoration: none;
+                }
+
+.popUp {
+    width: 400px;
+    position: fixed;
+    top: 50px;
+    z-index: 4;
+    text-align: center;
+    width: 1200px;
+    padding: 10px;
+    padding-bottom: 25px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+}
+
+.closeHowToPlay{
+direction: rtl;
+position: relative;
+border-radius: 15px;
+top: 140px;
+right: 450px;
+cursor: pointer;
+}
+.closeOdot{
+direction: rtl;
+position: relative;
+border-radius: 15px;
+top: -650px;
+right: 500px;
+cursor: pointer;
+}
+
+.Copyright{
+position: relative;
+top: -325px;
+right: -180px;
+cursor: pointer;
+font-size: 20pt;
+}
+
+.HitLogo{
+position: relative;
+top: -200px;
+right: 10px;
+cursor: pointer;
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}

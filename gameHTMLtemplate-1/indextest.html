@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>פירמידע</title>
+    <meta name="description" content="Pyramiyeda" />
+    <meta name="keywords" content="Pyramiyeda" />
+    <meta name="author" content="AdiYair_EinavYehilaviz" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <link rel="icon" type="image/png" href="/images/Logo32.png">
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+
+                <img id="logo" src="images/LogoGMC.png" /> <!--הלוגו של המשחק שלכם-->
+                <p>פירמידע</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <img src="images/Odot.png" width="1200" />
+            <img src="images/X.png" class="closeOdot" width="50" />
+            <a class="Copyright" href="https://drive.google.com/file/d/12AYodOtjX2MjN8T9QUYrL4rYyLcY6Ljh/view?usp=sharing" target="_blank">"קישור"</a>
+            <a id="HitLogo" class="HitLogo" href="http://www.hit.ac.il/telem/overview">
+                <img src="images/50 logo HIT.png" width="150" />
+            </a>
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <img src="images/X.png" class="closeHowToPlay" width="50" />
+            <img src="images/HowToPlay.png" width="1200" />
+        </div>
+       
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="testing size.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
