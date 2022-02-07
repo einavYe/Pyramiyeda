@@ -1,0 +1,16 @@
+#mycb{
+direction: rtl;
+text-align: right;
+border-color: #CD6803;
+border-width: 15xp;
+font-family: Nehama;
+font-size: 25pt;
+color: #792735;
+}
+
+#mycb > option{
+color: #FEDAAB;
+background:#552933;
+border-color: #CD6803;
+border-width: 15xp;
+}
